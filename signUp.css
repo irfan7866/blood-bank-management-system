@@ -1,0 +1,23 @@
+body {
+  text-align: center;
+  margin: 100px 0px;
+  background-color: rgb(155, 33, 33);
+}
+
+.styling {
+  padding: 0px 0px 5px 0px;
+}
+
+.full-body {
+  margin: 50px 200px;
+  padding: 50px 50px;
+  background-color: #fff;
+}
+
+.box {
+  margin: 100px 0px;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}

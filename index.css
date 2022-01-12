@@ -1,0 +1,81 @@
+/* Navigation Bar */
+.container-fluid {
+  padding: 2% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Montserrat-black";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+.nav-margin {
+  margin: auto;
+}
+
+/* feature */
+
+.features {
+  background-color: rgb(155, 33, 33);
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+/* footer section */
+
+.centering {
+  text-align: center;
+}
+
+footer {
+  padding: 3% 5%;
+}
+
+.carousel {
+  text-align: center;
+  background-color: rgb(184, 55, 55);
+}
+
+.helping {
+  background-color: #fff;
+  margin: 300px;
+}
+
+.carousel {
+  margin: 0px 0px 0px;
+}
+
+.carousel-item {
+  padding: 200px 250px;
+}
+
+/* Button styling */
+
+.button-styling {
+  padding: 30px 0px;
+}
+
+.btn {
+  margin: 0px 10px;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+
+    <!-- CSS styling -->
+    <link rel="stylesheet" href="signUp.css">
+
+    <!--Fonts awesome-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+</head>
+<body>
+    <div class="full-body">
+        <h1>Blood Bank Management System</h1>
+
+        <form class="box">
+            <div class="styling">
+                <label for="text">Enter first name: </label>
+                <input type="text" placeholder="First Name">
+            </div>
+            <br>
+            <div class="styling">
+                <label for="text2">Enter second name: </label>
+                <input type="text" id="text2" placeholder="Second Name">
+            </div>
+            <br>
+            <div class="styling">
+                <label for="address">Enter parmanent address:</label>
+                <input type="Address" id="address" placeholder="Address">
+            </div>
+            <br>
+            <div class="styling">
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" placeholder="email">
+            </div>
+            <br>
+            <div class="styling">
+                <label for="date">Enter Date of Birth:</label>
+                <input type="date" id="date">
+            </div>
+            <br>
+            <div class="styling">
+                <label for="sex">Sex:</label>
+                <div id="sex">
+                    <input type="radio" id="male" name="sex_name">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="sex_name">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+            <br>
+            <div class="styling">
+                <label for="cars">Choose your blood group:</label>
+                <select id="cars">
+                    <option>A+</option>
+                    <option>A-</option>
+                    <option>B+</option>
+                    <option>B-</option>
+                    <option>AB+</option>
+                    <option>AB-</option>
+                    <option>O+</option>
+                    <option>O-</option>
+                </select>
+            </div>
+            <br>
+            <div class="styling">
+                <button><a href="index.html" onClick="alert('You have successfully signed up.')">Submit</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+<footer>
+    <div>
+        <i class="social-icon fab fa-facebook-square"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fas fa-envelope"></i>
+        <i class="social-icon fab fa-linkedin"></i>
+    
+        <p>&copy; copyright 2021</p>
+</footer>
+</html>
